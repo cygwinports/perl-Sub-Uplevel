@@ -1,0 +1,5 @@
+category: Perl
+requires: perl
+sdesc: "Perl apparent stack frame manipulation module"
+ldesc: "Perl module to make function think it is being executed higher 
+in the stack frame."
