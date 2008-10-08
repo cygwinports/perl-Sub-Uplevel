@@ -20,15 +20,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Sub-Uplevel-0.1901-X-src.tar.bz2
+  unpack perl-Sub-Uplevel-0.2002-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Sub-Uplevel-0.1901-X.cygport all
+  cygport ./perl-Sub-Uplevel-0.2002-X.cygport all
 
 This will create:
-  /usr/src/perl-Sub-Uplevel-0.1901-X-src.tar.bz2
-  /usr/src/perl-Sub-Uplevel-0.1901-X.tar.bz2
+  /usr/src/perl-Sub-Uplevel-0.2002-X-src.tar.bz2
+  /usr/src/perl-Sub-Uplevel-0.2002-X.tar.bz2
 
 -------------------------------------------
 
@@ -37,16 +37,20 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/Sub/Uplevel.pm
   /usr/lib/perl5/vendor_perl/5.10/Sub/Uplevel.pod
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Sub/Uplevel/.packlist
-  /usr/share/doc/perl-Sub-Uplevel-0.1901/Changes
-  /usr/share/doc/perl-Sub-Uplevel-0.1901/INSTALL
-  /usr/share/doc/perl-Sub-Uplevel-0.1901/LICENSE
-  /usr/share/doc/perl-Sub-Uplevel-0.1901/README
-  /usr/share/doc/perl-Sub-Uplevel-0.1901/TODO
+  /usr/share/doc/perl-5.10.0/html/html3/site/lib/Sub/Uplevel.html
+  /usr/share/doc/perl-Sub-Uplevel-0.2002/Changes
+  /usr/share/doc/perl-Sub-Uplevel-0.2002/INSTALL
+  /usr/share/doc/perl-Sub-Uplevel-0.2002/LICENSE
+  /usr/share/doc/perl-Sub-Uplevel-0.2002/README
+  /usr/share/doc/perl-Sub-Uplevel-0.2002/TODO
   /usr/share/man/man3/Sub.Uplevel.3pm.gz
 
 ------------------
 
 Port Notes:
+
+----- version 0.2002-1 -----
+Version bump.
 
 ----- version 0.1901-1 -----
 Initial release for Cygwin.
